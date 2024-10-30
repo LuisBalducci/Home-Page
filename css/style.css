@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto Mono", monospace;
 }
 body{
     margin: 0;
@@ -31,7 +31,7 @@ header .bg-gradient{
     box-shadow: 0 0 2.1rem rgba(140, 142, 164, 125);
     border-top-left-radius: 0.25rem;
     border-top-right-radius: 0.25rem;
-    padding: 20px;
+    padding: 15px;
     color: #333;
 
 }
@@ -100,4 +100,35 @@ header .bg-gradient{
 .menu ul li{
     padding: 0 10px;
     line-height: 60px;
+}
+.container{
+    max-width: 60vw;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+h1, h2{
+    text-align: center;
+    font-size: 2.5em;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1rem;
+}
+.home p{
+    text-align: justify;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+footer .container{
+    display: flex;
+    height: 50px;
+    width: 100%;
+}
+footer .menu a{
+    color: rgb(87, 86, 86);
+}
+footer p{
+    line-height: 35px;
+}
+.fa-user{
+    color: darkorange;
 }
